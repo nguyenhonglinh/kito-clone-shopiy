@@ -589,6 +589,9 @@ h2 {
     .content-img h2 {
         font-size: 20px !important;
     }
+    .text-overlay h2{
+        font-size: 1px !important;
+    }
 }
 
 @media screen and (max-width: 650px ){
@@ -608,7 +611,7 @@ h2 {
 
     .image-wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
     }
 
@@ -718,7 +721,7 @@ h2 {
     }
 
     .text-overlay p {
-        font-size: 13px !important;
+        font-size: 13px;
         padding: 15px 15px;
 
     }
